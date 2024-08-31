@@ -42,7 +42,7 @@ var Smtp *SmtpNode
 
 func init() {
 	// 初始化smtp服务器的配置，可以从配置文件获取
-	smtpConfig := SmtpConfig{Host: "smtp.qq.com", Port: 465, User: "995903799@qq.com", Passwd: "ldrsrttyoxttbbga"}
+	smtpConfig := SmtpConfig{Host: "smtp.qq.com", Port: 465, User: "xxxxx@qq.com", Passwd: "xxxxxxxx"}
 	Smtp = NewSmtpNode(smtpConfig)
 	fmt.Printf("初始化了smtp配置%#v", Smtp)
 }
