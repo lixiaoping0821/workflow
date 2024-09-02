@@ -10,6 +10,6 @@
 
 #### 抄送人，支持多个：cc[]
 
-#### 邮件主题，支持多个：subject
+#### 邮件主题：subject
 
 #### 邮件内容，格式text/html：content
